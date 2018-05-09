@@ -1,0 +1,31 @@
+{
+  "name": "14EatDaBurger",
+  "version": "1.0.0",
+  "description": "Homework Assignment eat da burger",
+  "main": "server.js",
+  "engines": {
+        "node": "7.8.0"
+    },
+  "scripts": {
+  	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamondwills/Eat-Da-Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diamondwills/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/diamondwills/Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
+}
